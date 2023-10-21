@@ -9,14 +9,12 @@ import 'swiper/css/navigation';
 
 import { EffectCoverflow, Pagination, Navigation , Autoplay} from 'swiper/modules';
 
-
-
 function App() {
   return (
     <div className="container2">
       <section className="frame">
           <div id='title'>
-            <h3>Portfólio</h3>
+            <h3>Portfólio 1</h3>
           </div>
         <p>Conheça os nossos mais novos projetos:</p>
       </section>

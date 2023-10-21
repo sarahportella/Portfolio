@@ -265,8 +265,6 @@ a {
 }
 
 .slider-controler .swiper-button-next {
-  top: -270px;
-  left: 73% !important;
   background: transparent url(images/next.png) center center/cover no-repeat;
   transform: translateX(-58%) !important;
 }

@@ -259,8 +259,10 @@ a {
 
 .slider-controler {
   position: relative;
+  width: 100vw;
   bottom: 2rem;
   display: flex;
+  justify-content: space-between;
   
 }
 
