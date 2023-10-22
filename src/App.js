@@ -17,7 +17,7 @@ function App() {
 
     const[info, setInfo] = useState([])
     const [swiper, setSwiper] = useState(null);
-    const [index, setIndex] = useState(8);
+    const [index, setIndex] = useState(0);
 
 
       const handlePrev = () => {
@@ -42,9 +42,10 @@ function App() {
 
     useEffect(()=>{
       if(swiper){
-        console.log(index);
+        console.log(swiper)
+        setIndex(swiper.realIndex + 1)
       }
-    },[index])
+    },[swiper])
 
     useEffect(()=>{
       setInfo(Info);
@@ -62,6 +63,7 @@ function App() {
       <div className="container">
       <Swiper
         effect={'coverflow'}
+      initialSlide={3}
         onSwiper={setSwiper}
         onSlideChangeTransitionStart={handleSlideChange}
         grabCursor={true}
@@ -98,14 +100,17 @@ function App() {
                   <h4>{item.titulo}</h4>
                   <p>{item.texto}</p>
                 </div>
-                {index == item.id ? 
-                <div className='teste'>
+                {
+                  index == item.id ? 
                  <div className='teste2' onClick={handleNext}><img src={PreviewArrow}/></div>
-                 <div className='teste2' onClick={handlePrev}><img src={NextArrow}/></div>
+                 : ''
+                }
+                   {
+                  index == item.id ? 
+                 <div className='teste3' onClick={handlePrev}><img src={NextArrow}/></div>
+                 : ''
+                }
                 </div>
-               : <></>
-               }
-              </div>
             </SwiperSlide>      
           )
         })}
