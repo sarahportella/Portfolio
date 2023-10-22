@@ -19,7 +19,7 @@ function App() {
     const [swiper, setSwiper] = useState(null);
     const [index, setIndex] = useState(0);
 
-
+      // por algum motivo os slides estão sendo contabilizados ao contrario
       const handlePrev = () => {
         if (swiper) {
           // Avança para o próximo slide
@@ -42,7 +42,6 @@ function App() {
 
     useEffect(()=>{
       if(swiper){
-        console.log(swiper)
         setIndex(swiper.realIndex + 1)
       }
     },[swiper])
@@ -63,15 +62,15 @@ function App() {
       <div className="container">
       <Swiper
         effect={'coverflow'}
-      initialSlide={3}
+        initialSlide={3}
         onSwiper={setSwiper}
         onSlideChangeTransitionStart={handleSlideChange}
         grabCursor={true}
         centeredSlides={true}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 5000,
+        //   disableOnInteraction: false,
+        // }}
         loop={true}
         slidesPerView={'auto'}
         coverflowEffect={{

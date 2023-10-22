@@ -296,60 +296,7 @@ align-items: center;
   justify-content: space-between;
 }
 
-/*
-@media (max-width: 700px) {
-  .slider-controler .swiper-button-prev {
-    top: -270px;
-    left: 10vw !important;
-    background: transparent url(images/prev.png) center center/cover no-repeat;
-  }
-
-  .slider-controler .swiper-button-next {
-    top: -270px;
-    left: 90vw !important;
-    background: transparent url(images/next.png) center center/cover no-repeat;
-    transform: translateX(-58%) !important;
-  }
-}
-
-@media (max-width: 1220px) {
-  .slider-controler .swiper-button-prev {
-    top: -270px;
-    left: 10vw !important;
-    background: transparent url(images/prev.png) center center/cover no-repeat;
-  }
-
-  .slider-controler .swiper-button-next {
-    top: -270px;
-    right: 1px !important;
-    background: transparent url(images/next.png) center center/cover no-repeat;
-    transform: translateX(-58%) !important;
-  }
-}
-
-
-@media (max-width: 990px) {
-  .slider-controler .swiper-button-prev {
-    left: 30% !important;
-    transform: translateX(-30%) !important;
-  }
-}
-
-@media (max-width: 450px) {
-  .slider-controler .swiper-button-prev {
-    left: 20% !important;
-    transform: translateX(-20%) !important;
-  }
-} */
-
 @media screen and (min-width: 680px) and (max-width: 883px) {
-
-  /* .frame {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  } */
-
   .frame h3 {
       font-size: 5vw;
       line-height: 46px;
@@ -373,13 +320,6 @@ align-items: center;
 }
 
 @media screen and (min-width: 501px)and (max-width: 680px) {
-
-  /* .frame {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  } */
-
   .frame h3 {
       font-size: 3vw;
       line-height: 26px;
@@ -404,13 +344,6 @@ align-items: center;
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
-
-  /* .frame {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  } */
-
   .frame h3 {
       font-size: 3vw;
       line-height: 26px;
@@ -433,20 +366,13 @@ align-items: center;
     max-width: 42rem;
   }
 
-  .slide , .info {
+  .slide, div.info, div.info a { /* Miguel */
     width: 28rem !important;
     height: 36rem !important;
   }
 }
 
 @media screen and (max-width: 300px) {
-
-  /* .frame {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  } */
-
   .frame h3 {
       display: flex;
 
