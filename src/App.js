@@ -67,10 +67,10 @@ function App() {
         onSlideChangeTransitionStart={handleSlideChange}
         grabCursor={true}
         centeredSlides={true}
-        // autoplay={{
-        //   delay: 5000,
-        //   disableOnInteraction: false,
-        // }}
+         autoplay={{
+           delay: 5000,
+           disableOnInteraction: false,
+         }}
         loop={true}
         slidesPerView={'auto'}
         coverflowEffect={{
