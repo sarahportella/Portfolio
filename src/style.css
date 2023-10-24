@@ -127,19 +127,6 @@ body {
   text-align: center;
 }
 
-.swiper_container {
-  height: 52rem;
-  padding: 2rem 0!important;
-  position: relative!important;
-}
-
-.swiper-slide {
-  width: 58rem!important;
-  height: 42rem!important;
-  position: relative!important;
-  border-radius: 15px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
-}
 
 
 
@@ -253,13 +240,13 @@ a {
   object-fit: cover;
 }
 
-.slide .teste2{
+.slide .teste2{/*miguel*/
 width: 50%;
 display: flex;
 justify-content: left;
 align-items: center;
 }
-.slide .teste3{
+.slide .teste3{/*miguel*/
   width: 50%;
   display: flex;
   justify-content: right;

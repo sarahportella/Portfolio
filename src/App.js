@@ -62,7 +62,7 @@ function App() {
       <div className="container">
       <Swiper
         effect={'coverflow'}
-        initialSlide={3}
+        initialSlide={7}
         onSwiper={setSwiper}
         onSlideChangeTransitionStart={handleSlideChange}
         grabCursor={true}
@@ -75,10 +75,9 @@ function App() {
         slidesPerView={'auto'}
         coverflowEffect={{
           rotate: 0,
-          stretch: 50,
-          depth: 400,
-          modifier: 2.5,
-          
+          stretch: 4, 
+          depth: 50,   // Ajuste esse valor para a profundidade desejada
+          modifier: -30, // Ajuste esse para  para diminuir o espaço entre eles (quanto menor, mais proximos)
         }}
         pagination={{ el: '.swiper-pagination', clickable: true }}
         navigation={{
