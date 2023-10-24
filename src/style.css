@@ -240,13 +240,13 @@ a {
   object-fit: cover;
 }
 
-.slide .teste2{/*miguel*/
+.slide .teste2{/*miguel btnPrev*/
 width: 50%;
 display: flex;
 justify-content: left;
 align-items: center;
 }
-.slide .teste3{/*miguel*/
+.slide .teste3{/*miguel btnNext*/
   width: 50%;
   display: flex;
   justify-content: right;

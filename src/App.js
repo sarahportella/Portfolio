@@ -10,12 +10,13 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation , Autoplay} from 'swiper/modules';
 
 import { Info } from './data/Info';
+
 import NextArrow from './images/next.png'
 import PreviewArrow from './images/prev.png'
 
 function App() {
 
-    const[info, setInfo] = useState([])
+    const [info, setInfo] = useState([])
     const [swiper, setSwiper] = useState(null);
     const [index, setIndex] = useState(0);
 
@@ -43,13 +44,13 @@ function App() {
     useEffect(()=>{
       if(swiper){
         setIndex(swiper.realIndex + 1)
+      console.log(swiper)
       }
     },[swiper])
 
     useEffect(()=>{
       setInfo(Info);
     },[])
-
 
   return (
     <div className="container2">
@@ -62,9 +63,9 @@ function App() {
       <div className="container">
       <Swiper
         effect={'coverflow'}
-        initialSlide={7}
-        onSwiper={setSwiper}
-        onSlideChangeTransitionStart={handleSlideChange}
+        initialSlide={5} /* miguel */
+        onSwiper={setSwiper} /* miguel */
+        onSlideChangeTransitionStart={handleSlideChange}/* miguel */
         grabCursor={true}
         centeredSlides={true}
          autoplay={{

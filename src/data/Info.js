@@ -47,4 +47,4 @@ export const Info = [
         "titulo": "Vertuno",
         "texto": "Lorem ipsum dolor sit amet. Sed praesentium unde qui architecto unde sed saepe deserunt et modi dolorem."
     },
-]
+];
