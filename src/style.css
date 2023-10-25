@@ -246,11 +246,21 @@ display: flex;
 justify-content: left;
 align-items: center;
 }
+
 .slide .teste3{/*miguel btnNext*/
   width: 50%;
   display: flex;
   justify-content: right;
   align-items: center;  
+}
+
+.slide .teste3:active {
+  width: 7rem;
+  height: 7rem;
+}
+
+.slide .teste3:hover {
+  background-color: rgba(0, 0, 0, 0.466);
 }
 
 .teste2 img{ /*miguel*/
