@@ -14,7 +14,7 @@ import { Info } from './data/Info';
 import NextArrow from './images/next.png'
 import PreviewArrow from './images/prev.png'
 
-function App() {
+function Portfolio() {
 
     const [info, setInfo] = useState([])
     const [swiper, setSwiper] = useState(null);
@@ -69,7 +69,7 @@ function App() {
         grabCursor={true}
         centeredSlides={true}
          autoplay={{
-           delay: 500000,
+           delay: 10000,
            disableOnInteraction: false,
          }}
         loop={true}
@@ -101,12 +101,12 @@ function App() {
                 </div>
                 {
                   index == item.id ? 
-                 <div className='teste2' onClick={handleNext}><img src={PreviewArrow}/></div>
+                 <div className='btn-prev' onClick={handleNext}><img src={PreviewArrow}/></div>
                  : ''
                 }
                    {
                   index == item.id ? 
-                 <div className='teste3' onClick={handlePrev}><img src={NextArrow}/></div>
+                 <div className='btn-next' onClick={handlePrev}><img src={NextArrow}/></div>
                  : ''
                 }
                 </div>
@@ -124,4 +124,4 @@ function App() {
   );
 }
 
-export default App;
+export default Portfolio;

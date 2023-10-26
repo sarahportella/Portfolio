@@ -183,7 +183,7 @@ body {
 }
 
 #slide8 {
-  background: black url(images/vertuno.png) center center/cover no-repeat ;
+  background: black url(images/vertuno1.png) center center/cover no-repeat ;
 }
 
 div.info {
@@ -198,7 +198,7 @@ div.info {
 div.info:hover {
   display: block!important;
   transition: 1s;
-  background-color: rgba(0, 0, 0, 0.548);
+  background-color: rgba(0, 0, 0, 0.603);
   color: white;
 }
 
@@ -209,18 +209,19 @@ div.info > a {
 } 
 
 div.info > a:hover {
-  background-color: rgba(0, 0, 0, 0.24);
+  background-color: rgba(0, 0, 0, 0.007);
   z-index: 1;
 } 
 
 div.info > h4 {
   
-  margin: -90px 10px 10px 20px;
+  margin: -120px 10px 10px 20px;
 } 
 div.info > p {
-  
   margin: 10px 10px 10px 20px;
 }
+
+
 
 a {
   display: block;
@@ -240,21 +241,21 @@ a {
   object-fit: cover;
 }
 
-.slide .teste2{/*miguel btnPrev*/
+.slide .btn-prev{/*miguel btnPrev*/
 width: 50%;
 display: flex;
 justify-content: left;
 align-items: center;
 }
 
-.slide .teste3{/*miguel btnNext*/
+.slide .btn-next{/*miguel btnNext*/
   width: 50%;
   display: flex;
   justify-content: right;
   align-items: center;  
 }
 
-.teste2 img{ /*miguel*/
+.btn-prev img{ /*miguel*/
   position: relative;
   z-index: 999;
   height: 50px !important; 
@@ -262,7 +263,7 @@ align-items: center;
   left: -20px;
 }
 
-.teste3 img{ /*miguel*/
+.btn-next img{ /*miguel*/
   position: relative;
   z-index: 999;
   height: 50px !important; 
@@ -270,22 +271,22 @@ align-items: center;
   left: 20px;
 }
 
-.teste3 img:active {
+.btn-next img:active {
   width: 45px!important;
   height: 45px!important;
 }
 
-.teste2 img:active {
+.btn-prev img:active {
   width: 45px!important;
   height: 45px!important;
 }
 
-.teste2 img:hover {
+.btn-prev img:hover {
   background-color: rgba(0, 0, 0, 0.466);
   border-radius: 50px;
 }
 
-.teste3 img:hover {
+.btn-next img:hover {
   background-color: rgba(0, 0, 0, 0.466);
   border-radius: 50px;
 }
