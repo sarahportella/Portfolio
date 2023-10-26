@@ -69,15 +69,15 @@ function App() {
         grabCursor={true}
         centeredSlides={true}
          autoplay={{
-           delay: 5000,
+           delay: 500000,
            disableOnInteraction: false,
          }}
         loop={true}
         slidesPerView={'auto'}
         coverflowEffect={{
           rotate: 0,
-          stretch: 4, 
-          depth: 50,   // Ajuste esse valor para a profundidade desejada
+          stretch: 0, 
+          depth: 60,   // Ajuste esse valor para a profundidade desejada
           modifier: -30, // Ajuste esse para  para diminuir o espaço entre eles (quanto menor, mais proximos)
         }}
         pagination={{ el: '.swiper-pagination', clickable: true }}
