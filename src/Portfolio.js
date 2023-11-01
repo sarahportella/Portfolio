@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './style.css';
+import './portfolio.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -63,9 +63,9 @@ function Portfolio() {
       <div className="container">
       <Swiper
         effect={'coverflow'}
-        initialSlide={5} /* miguel */
-        onSwiper={setSwiper} /* miguel */
-        onSlideChangeTransitionStart={handleSlideChange}/* miguel */
+        initialSlide={5} 
+        onSwiper={setSwiper} 
+        onSlideChangeTransitionStart={handleSlideChange}
         grabCursor={true}
         centeredSlides={true}
          autoplay={{

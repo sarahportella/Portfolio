@@ -21,13 +21,13 @@ export const Info = [
         "id": 4,
         "link": "https://www.behance.net/gallery/148526145/Portfolio-Doullyta",
         "titulo": "Doullyta",
-        "texto": "Aplicativo mobile com o objetivo de auxiliar doulas em suas atividades de ofício, por meio de uma interface intuitiva, organização e gerenciamento das informações sobre a gestante e controle e planejamento das consultas"
+        "texto": "Aplicativo mobile com o objetivo de auxiliar doulas em seus ofícios, por meio de uma interface intuitiva, organização e gerenciamento das informações sobre a gestante e controle e planejamento das consultas"
     },
     {
         "id": 5,
         "link": "https://www.behance.net/gallery/148021153/Portfolio-Matheus-Store-(catalogo)",
         "titulo": "Catálogo",
-        "texto": "O catálogo da Matheus Store tem como sua função principal é a venda de vestuários para os clientes e funções administrativas essenciais para o dono da loja, como o controle da entrada e saída de produtos."
+        "texto": "O catálogo da Matheus Store tem como sua função principal a venda de vestuários para os clientes e funções administrativas essenciais para o dono da loja, como o controle da entrada e saída de produtos."
     },
     {
         "id": 6,
